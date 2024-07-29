@@ -78,10 +78,6 @@ columns = df.columns.to_list()
 
 
 
-####### MOVE MZ COLUMNS TOGETHER #######
-
-
-
 ####### REMOVING ROWS BY REPLICATE MASKING #######
 # This removes rows where a peak is not observed in all replicates of at least one strain/infiltration.
 # It is toggelable with the  replicateMasking  boolean at the top of the script.
