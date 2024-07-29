@@ -11,7 +11,7 @@ import re
 
 ####### USER INPUT #######
 rawBatchOutput = 'featurelist_mzmine_v2.csv'  # Filename here
-exportLocation = 'cleanedTest.csv'
+exportLocation = 'cleanedTest.csv'  # Output location here
 
 # Group mz columns
 groupMz = True  # The mz_range:min/max columns are 
