@@ -10,9 +10,6 @@ import pandas as pd
 rawBatchOutput = 'featurelist_mzmine_v2.csv'  # Filename here
 exportLocation = 'cleanedTest.csv'  # Output location here
 
-# Group mz columns
-groupMz = True  # The mz_range:min/max columns are 
-
 # Replicate consistency based filtering
 replicateMasking = True  # Removing rows without detected peaks in all replicates of at least one strain/infiltration
 
